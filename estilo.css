@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: url(1.jpg);
+}
+body {
+    width: 1250px;
+    margin: 0 auto;
+}
+.contenedor-header {
+    display: flex;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+}
+.contenedor-header h1 {
+    color: orangered;
+    font-size: 50px;
+}
+.contenedor-header ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.search {
+    display: flex;
+}
+.search input, .search button {
+    height: 40px;
+}
+.search input {
+    text-align: start;
+    border-radius: 10px 5px 5px 10px;
+    border: 1px solid orangered;
+    background: transparent;
+}
+.search input::placeholder {
+    color: white;
+}
+.search button {
+    background-color: orangered;
+    width: 100px;
+    border-radius: 10px;
+}
+.ul-header li {
+    list-style: none;
+}
+.ul-header li a {
+    font-size: larger;
+
+    font-weight: 700;
+    color: white;
+}
+.ul-header li a:hover {
+    color: orangered;
+}
+
+
+
+.contenedor-main {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.main h1 {
+    font-size: 45px;
+}
+.main h2 {
+    font-size: 30px;
+}
+.main span {
+    color: orangered;
+}
+.main p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+.main button {
+    margin-top: 25px;
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 270px;
+    height: 400px;
+    margin: 0 auto;
+}
+.form button, .form input, .form p, .form h4 {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+.form button, .form input[type='submit'] {
+    width: 75%;
+    height: 32px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: white;
+    color: orangered;
+    font-size: 16px;
+    font-weight: 700;
+}
+form input[type='submit'] {
+    background-color: orangered;
+    color: black;
+}
+
+.form input[type='email'], .form input[type='password'] {
+    color: white;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid orangered;
+}
+.form input[type='email']::placeholder{
+    color: white;
+    text-align: start;
+} 
+.form input[type='password']::placeholder {
+    color: white;
+    text-align: start;
+}
+.form p span {
+    color: orangered;
+}
+
+.icons {
+    display: flex;
+    width: 90%;
+    align-items: center;
+   /* justify-content: space-between; */
+   margin: 0 auto;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+
+
+
+
+
+
+
+
